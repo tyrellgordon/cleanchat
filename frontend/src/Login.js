@@ -16,11 +16,11 @@ login = (e) => {
     return (
       <div id="login">
       <form class="ui form" onSubmit={this.login}>
-        <label>Username:</label><br/>
+          <label>Username:</label><br/>
         <div class="field">
         <input type="text" id="username"/><br/>
         </div>
-        <input type="submit" value="Log In"/>
+        <input class='ui button' type="submit" value="Log In"/>
       </form>
 
       </div>
